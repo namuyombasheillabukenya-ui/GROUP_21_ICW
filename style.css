@@ -1,0 +1,171 @@
+* {
+	background:rgba(208, 219, 223, 0.283);
+	margin:auto;
+	position: relative;
+	text-align: center;
+	padding: auto;
+	box-sizing: border-box;
+}
+.logo img {
+	margin: 10px 10px;
+	background: transparent;
+	width: 70px;
+	height: 70px;
+	border-radius: 10px;
+
+}
+.HEAD h1{
+	text-align: center;
+	font-size: 30PX;
+	font-family: tahoma;
+}
+header{
+	width: 100%;
+	box-sizing: border-box;
+}
+header a{
+width: auto;
+text-decoration: none;
+border: 1px solid gray;
+padding: 5px;
+border-radius: 20px;
+font-size: small;
+margin:5px;
+
+}
+.banner {
+	width:100% ;
+	height: 100;
+}
+.banner video{
+	width: 50%;
+	height:700px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+.banner p{
+	width: 70%;
+	margin-bottom: 20px;
+	margin:auto;
+}
+footer p{
+	background: transparent;
+	color: darkpurple;
+	margin: 10px;
+}
+header, footer{
+	background-color: rgb(252, 252, 244);
+
+}
+.founder{
+	display: flex;
+	color: black;
+}
+.services{
+	display: flex;
+	background-image: url('/images/money.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 30px;
+	background-position: center;
+}
+.service h4, ul, p{
+	background: transparent;
+	text-decoration:none ;
+}
+.end{
+	display: flex;
+	width: 100%;
+	position: relative;
+	height: 20%;
+}
+.end div{
+	width: 50%;
+}
+.end video{
+	width: 100%;
+	height: 60%;
+	border-radius: 30px;
+}
+.end p{
+	margin-top: 20px;
+	padding:50px 10px;
+}
+nav{
+	align-items: center;
+}
+.emp{
+	display: flex;
+	width: 100%;
+
+}
+.exp,.cred{
+	width: 50%;
+}
+input{
+	display: block;
+	width: 70%;
+	margin-left: 200px;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: medium;
+	box-shadow: 2px 4px 6px;
+}
+button{
+	padding: 15px;
+	border-radius: 20px;
+	background-color: cadetblue;
+	color:black;
+	border: none;
+	box-shadow: 2px 4px 6px;
+
+
+}
+.emp img{
+	width: 100%;
+	border-radius: 20px;
+}
+.inp h4{
+	margin-bottom: 30px;
+}
+.inp email, text, password{
+	outline: none;
+}
+legend{
+	margin-left: 90px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.exp h4{
+	font-size: x-large;
+}
+select{
+	padding: 10px;
+    width: 30%;
+	border-radius: 10px;
+	font-size:large;
+	box-shadow: 2px 4px 6px;
+}
+label{
+	width: 10%;
+	display: flex;
+}
+header img{
+    border-radius: 90px;
+}
+@media (max-width-399){
+header a{
+text-decoration: none;
+border: 1px solid gray;
+padding:0;
+border-radius: 20px;
+font-size:small;
+text-wrap: wrap;
+display: block;
+}
+body{
+	align-items: center;
+}
+header{
+	display: block;
+}
+}
